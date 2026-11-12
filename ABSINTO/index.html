@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#10200f">
+    
+    <title>Absinto | Rock Psicodélico</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <!-- Fontes para a escrita do site -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Rye&family=Uncial+Antiqua&display=swap"
+        rel="stylesheet">
+
+    <script src="js/js.js" defer></script>
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+
+        <a href="#inicio" class="logo" aria-label="Absinto - Início">
+            <span class="logo-nome">Absinto</span>
+            <span class="logo-subtitulo">Rock psicodélico</span>
+        </a>
+
+        <button class="menu-toggle"
+                aria-label="Abrir menu"
+                aria-expanded="false"
+                aria-controls="menu-principal">
+            ☰
+        </button>
+
+        <nav class="navegacao" id="menu-principal"
+             aria-label="Navegação principal">
+
+            <a href="#inicio" class="link-nav ativo">Início</a>
+            <a href="#sobre" class="link-nav">A banda</a>
+            <a href="#musicas" class="link-nav">Músicas</a>
+            <a href="shows.html" class="link-nav">Shows</a>
+            <a href="#galeria" class="link-nav">Galeria</a>
+            <a href="#contato" class="link-nav">Contato</a>
+            <a href="noticias.html" class="link-nav">Notícias</a>
+
+        </nav>
+
+        <div class="redes-cabecalho">
+
+            <a href="https://www.instagram.com/absinto__/" aria-label="Instagram">IG</a>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- DESTAQUE PRINCIPAL -->
+        <section class="hero" id="inicio">
+
+            <div class="hero-fundo"></div>
+
+            <div class="hero-conteudo">
+
+                <span class="etiqueta">Entre em outra dimensão</span>
+
+                <h1>
+                    Expanda<br>
+                    sua mente<span>.</span>
+                </h1>
+
+                <p>
+                    Rock psicodélico · Viagens sonoras · Liberdade
+                </p>
+
+                <a href="#musicas" class="botao botao-verde">
+                    Ouça agora <span>✳</span>
+                </a>
+
+            </div>
+
+            <a href="#sobre" class="indicador-scroll">
+                <span class="scroll-icone">↓</span>
+                Role para baixo
+            </a>
+
+            <div class="decoracao-hero decoracao-esquerda">〰</div>
+            <div class="decoracao-hero decoracao-direita">〰</div>
+
+        </section>
+
+
+        <!-- SOBRE A BANDA -->
+        <section class="sobre secao-clara" id="sobre">
+
+            <div class="sobre-texto revelar">
+
+                <span class="sobretitulo">Conheça nossa essência</span>
+
+                <h2 class="titulo-secao">Sobre a banda</h2>
+
+                <div class="linha-decorativa">✳ ─ ✳</div>
+
+                <h3>
+                    Somos uma banda de rock psicodélico
+                    que busca transcender o comum.
+                </h3>
+
+                <p>
+                    Formada por pura coincidência, a banda Absinto nasceu da paixão por música
+                    e pela busca de experiências sonoras únicas.
+                </p>
+
+                <p>
+                    Nossas músicas misturam guitarras etéreas e
+                    ritmos hipnóticos que buscam te entorpecer de vida.
+                </p>
+
+                <a href="./membros.html" class="botao botao-contorno">
+                    Conheça a banda <span>✦</span>
+                </a>
+
+            </div>
+
+            <div class="sobre-imagem revelar">
+
+                <img src="img/bandaabsinto1.jpg"
+                     alt="Integrantes da banda Absinto">
+
+                <span class="selo-decorativo">☼</span>
+
+            </div>
+
+        </section>
+
+
+        <!-- LANÇAMENTOS -->
+        <section class="musicas secao-escura" id="musicas">
+
+            <div class="cabecalho-secao revelar">
+
+                <span class="sobretitulo">Sons de outros mundos</span>
+
+                <h2 class="titulo-secao">Lançamentos</h2>
+
+                <div class="linha-decorativa">✳ ─ ✳</div>
+
+            </div>
+
+            <div class="lista-albuns">
+
+                <article class="album revelar">
+
+                    <div class="album-capa">
+                        <img src="img/capaabsinto.jpg"
+                             alt="Capa do single Náusea">
+
+                        <a href="#player"
+                           class="album-play"
+                           data-track="0"
+                           aria-label="Reproduzir Náusea">
+                            ▶
+                        </a>
+                    </div>
+
+                    <h3>Náusea</h3>
+                    <p>2026 · Single</p>
+
+                    <button class="botao-ouvir"
+                            data-track="0">
+                        ▶ Ouvir Single
+                    </button>
+
+                </article>
+
+
+                <article class="album revelar">
+
+                    <div class="album-capa">
+                        <img src="img/capaabsinto.jpg"
+                             alt="Capa do Single Apatia Crônica Generalizada">
+
+                        <a href="#player"
+                           class="album-play"
+                           data-track="1"
+                           aria-label="Reproduzir Apatia Crônica Generalizada">
+                            ▶
+                        </a>
+                    </div>
+
+                    <h3>Apatia Crônica Generalizada</h3>
+                    <p>2026 · Single</p>
+
+                    <button class="botao-ouvir"
+                            data-track="1">
+                        ▶ Ouvir single
+                    </button>
+
+                </article>
+
+
+                <article class="album revelar">
+
+                    <div class="album-capa">
+                        <img src="img/capaabsinto.jpg"
+                             alt="Capa do Single Jam">
+
+                        <a href="#player"
+                           class="album-play"
+                           data-track="2"
+                           aria-label="Reproduzir Jam">
+                            ▶
+                        </a>
+                    </div>
+
+                    <h3>Jam</h3>
+                    <p>2026· Single</p>
+
+                    <button class="botao-ouvir"
+                            data-track="2">
+                        ▶ Ouvir single
+                    </button>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- GALERIA -->
+        <section class="galeria secao-clara" id="galeria">
+
+            <div class="cabecalho-secao revelar">
+
+                <span class="sobretitulo">Momentos e memórias</span>
+
+                <h2 class="titulo-secao">A nossa jornada</h2>
+
+                <div class="linha-decorativa">✳ ─ ✳</div>
+
+            </div>
+
+            <div class="galeria-grade revelar">
+
+                <div class="foto-galeria foto-grande">
+                    <img src="img/absintotocando.jpg"
+                         alt="Absinto em apresentação">
+                </div>
+
+                <div class="foto-galeria">
+                    <img src="img/arteabsinto.png"
+                         alt="Arte da banda">
+                </div>
+
+                <div class="foto-galeria">
+                    <img src="img/capaabsinto.jpg"
+                         alt="Arte dos Singles">
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- AGENDA DE SHOWS -->
+        <section class="shows secao-clara" id="shows">
+
+            <div class="cabecalho-secao revelar">
+
+                <span class="sobretitulo">Vamos nos encontrar?</span>
+
+                <h2 class="titulo-secao">Próximos shows</h2>
+
+                <div class="linha-decorativa">✳ ─ ✳</div>
+
+            </div>
+
+            <div class="lista-shows revelar">
+
+                <article class="show">
+
+                    <div class="data-show">
+                        <strong>30</strong>
+                        <span>OUT</span>
+                    </div>
+
+                    <div class="info-show">
+                        <h3>SEXTA HALLOWEEN</h3>
+                        <p>Criciuma / SC</p>
+                    </div>
+
+                    <a href="https://www.instagram.com/p/De-eLr2R1zC/" class="botao botao-verde">
+                        Ingressos ↗
+                    </a>
+
+                </article>
+
+        </section>
+
+
+        <!-- CONTATO -->
+        <section class="contato secao-escura" id="contato">
+
+            <span class="sobretitulo">Continue essa viagem</span>
+
+            <h2 class="titulo-secao">
+                Entre em nosso universo.
+            </h2>
+
+            <p>
+                Acompanhe os lançamentos, novidades e próximas apresentações.
+            </p>
+
+            <div class="redes-contato">
+
+                <a href="https://www.instagram.com/absinto__/" aria-label="Instagram">Instagram</a>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+
+        <a href="#inicio" class="logo logo-rodape">
+            <span class="logo-nome">Absinto</span>
+            <span class="logo-subtitulo">Psychedelic Rock</span>
+        </a>
+
+        <div class="rodape-navegacao">
+
+            <span>Navegação</span>
+
+            <a href="#inicio">Início</a>
+            <a href="#sobre">A banda</a>
+            <a href="#musicas">Músicas</a>
+            <a href="#shows">Shows</a>
+
+        </div>
+
+        <div class="rodape-redes">
+
+            <span>Siga a gente</span>
+
+            <a href="https://www.instagram.com/absinto__/">Instagram</a>
+
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Absinto. Todos os direitos reservados.
+        </p>
+
+    </footer>
+
+
+    <!-- PLAYER FIXO -->
+    <div class="player" id="player">
+
+        <img src="img/capaabsinto.jpg"
+             alt=""
+             class="player-capa">
+
+        <div class="player-info">
+            <strong id="player-titulo">Apatia Crônica Generalizada</strong>
+            <span>Absinto</span>
+        </div>
+
+        <div class="player-controles">
+
+            <button id="player-anterior"
+                    aria-label="Faixa anterior">|◀</button>
+
+            <button id="player-play"
+                    aria-label="Reproduzir música">▶</button>
+
+            <button id="player-proxima"
+                    aria-label="Próxima faixa">▶|</button>
+
+        </div>
+
+        <div class="player-progresso">
+
+            <span id="tempo-atual">0:00</span>
+
+            <input type="range"
+                   id="barra-progresso"
+                   min="0"
+                   max="100"
+                   value="0"
+                   aria-label="Progresso da música">
+
+            <span id="duracao">0:00</span>
+
+        </div>
+
+        <audio id="audio-banda" preload="metadata"></audio>
+
+    </div>
+   <footer>  
+    <p><a href="./membros.html">Membros da Banda</a></p>
+    <p><a href="./shows.html">Próximos Shows</a></p>
+   </footer>
+</body>
+</html>
